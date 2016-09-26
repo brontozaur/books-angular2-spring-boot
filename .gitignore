@@ -1,0 +1,21 @@
+# Default .gitignore file
+
+# Mac OS X
+.DS_Store
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Maven
+log/
+target/
+
+node_modules/
+bower_components/
