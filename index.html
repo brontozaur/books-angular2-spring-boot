@@ -16,7 +16,10 @@
         System.config({
             packages: {'build': {defaultExtension: 'js'}}
         });
-        System.import('build/main');
+        System.import('build/main')
+                .catch(function (err) {
+                    console.log(err);
+                });
     </script>
 </head>
 <!-- 3. Display the application -->
