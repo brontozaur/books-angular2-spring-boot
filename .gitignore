@@ -20,3 +20,7 @@ target/
 
 node_modules/
 bower_components/
+
+# transpiled folder
+transpiled
+typings
