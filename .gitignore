@@ -22,5 +22,5 @@ node_modules/
 bower_components/
 
 # transpiled folder
-transpiled
+build
 typings
