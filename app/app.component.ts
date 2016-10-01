@@ -1,9 +1,11 @@
 import {Component} from "@angular/core";
+
 @Component({
     selector: 'books-app',
-    template: '<h1>{{title}}</h1>'
+    templateUrl: 'app/app.component.html'
+    // template: "Hello {{title}}"
 })
 export class AppComponent {
 
-    title: 'Books on angular 2!';
+    title: string = 'Books on angular 2!';
 }

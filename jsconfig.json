@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs"
+  },
+   "compileOnSave": true,
+  "exclude": [
+    "node_modules",
+    "typings"
+  ]
+}

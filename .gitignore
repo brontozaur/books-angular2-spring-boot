@@ -3,6 +3,8 @@
 # Mac OS X
 .DS_Store
 
+*.log
+
 # IntelliJ
 .idea
 .idea/
