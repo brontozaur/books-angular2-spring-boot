@@ -8,9 +8,22 @@ import {BooksManagerComponent} from "./books.manager.component";
 import {Editura} from "./editura/editura";
 
 @NgModule({
-    imports: [BrowserModule, FormsModule, HttpModule, RouterModule],
+    imports: [
+        BrowserModule,
+        FormsModule,
+        HttpModule,
+        RouterModule.forChild([{
+            path: 'editura',
+            component: Editura,
+            children: [
+                // { path: ':editura/search', component: AssetSearchComponent },
+                // { path: ':editura/create', component: AssetCreateComponent },
+                // { path: 'image/pim-upload', component: AssetPIMUploadComponent }
+            ]
+        }]),
+    ],
     declarations: [BooksManagerComponent, Editura],
-    bootstrap: [BooksManagerComponent],
+    bootstrap: [BooksManagerComponent]
 })
 export class AppModule {
 }
