@@ -3,6 +3,9 @@
 # Mac OS X
 .DS_Store
 
+*.js
+*.js.map
+
 *.log
 
 # IntelliJ
