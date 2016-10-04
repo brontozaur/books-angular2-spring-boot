@@ -8,8 +8,11 @@
     "experimentalDecorators": true,
     "removeComments": false,
     "noImplicitAny": false,
-    "outDir": "build",
-    "diagnostics": true,
-    "pretty": true
+    "outDir": "build"
   }
+//  "exclude": [
+//    "node_modules",
+//    "typings",
+//    "build"
+//  ]
 }
