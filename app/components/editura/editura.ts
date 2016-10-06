@@ -1,6 +1,6 @@
 import {Component, EventEmitter} from "@angular/core";
 
-import { EdituraModel } from '../interfaces';
+import { EdituraModel } from '../interfaces.d';
 
 @Component({
     selector: 'editura',

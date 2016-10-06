@@ -3,6 +3,7 @@ import {BrowserModule} from "@angular/platform-browser";
 import {FormsModule} from "@angular/forms";
 import {HttpModule} from "@angular/http";
 import {RouterModule} from "@angular/router";
+import {Routes} from "@angular/router";
 
 import {BooksManagerComponent} from "./books.manager.component";
 import {Editura} from "./editura/editura";
@@ -12,7 +13,7 @@ import {Editura} from "./editura/editura";
         BrowserModule,
         FormsModule,
         HttpModule,
-        RouterModule.forChild([{
+        RouterModule.forChild(<Routes>[{
             path: 'editura',
             component: Editura,
             children: [

@@ -1,1 +1,9 @@
-# books-angular2-spring-boot
+# Books Manager (AngularJS edition)
+
+Books Manager angular 2 frontend!
+
+Installation:
+
+npm install
+
+npm start
